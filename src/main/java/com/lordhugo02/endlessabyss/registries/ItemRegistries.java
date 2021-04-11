@@ -12,7 +12,7 @@ public class ItemRegistries
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, EndlessAbyss.modid);
 
-    public static final RegistryObject<Item> test = ITEMS.register("hellstone", () -> new Item (new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> test = ITEMS.register("test", () -> new Item (new Item.Properties().group(ItemGroup.MISC)));
 
 
 }
