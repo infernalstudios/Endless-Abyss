@@ -24,9 +24,6 @@ import java.util.stream.Collectors;
 public class EndlessAbyss
 {
     public static final String modid = "endlessabyss";
-    
-    
-    
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
