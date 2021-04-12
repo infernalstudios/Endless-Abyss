@@ -29,7 +29,7 @@ displayURL="https://www.discord.gg/GwxYA4Q" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="Java developer : LordHugo02 \nArtists : Lux, Icedmi, Crab\nConcepts : Diansu, Glados\nSpecial thanks : Jonahs" #optional
+credits="Java developer : LordHugo02 \nArtists : Lux, Icedmi, Crab\nConcepts : Diansu, Glados, Bonnie\nSpecial thanks : Jonahs" #optional
 # A text field displayed in the mod UI
 authors="Lux" #optional
 # The description text for the mod (multi line!) (#mandatory)
