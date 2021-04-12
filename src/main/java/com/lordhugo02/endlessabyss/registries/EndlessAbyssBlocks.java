@@ -10,13 +10,19 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class EndlessAbyssBlocks {
+public class EndlessAbyssBlocks
+{
 
     public static final DeferredRegister<Block> BLOCK_REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EndlessAbyss.MODID);
 
+
+    //Blocks
     public static final RegistryObject<Block> ENCRAG = register("encrag", () -> new Block(Block.Properties.create(Material.ANVIL).hardnessAndResistance(2.0f, 3.0f).sound(SoundType.ANCIENT_DEBRIS)));
 
-    public static RegistryObject<Block> register(String name, Supplier<? extends Block> blockSupplier) {
+
+
+    public static RegistryObject<Block> register(String name, Supplier<? extends Block> blockSupplier)
+    {
         return BLOCK_REGISTRY.register(name, blockSupplier);
     }
 }

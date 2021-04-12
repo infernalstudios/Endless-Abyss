@@ -12,11 +12,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod("endlessabyss")
-public class EndlessAbyss {
+public class EndlessAbyss
+{
     public static final String MODID = "endlessabyss";
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public EndlessAbyss() {
+    public EndlessAbyss()
+    {
         MinecraftForge.EVENT_BUS.register(this);
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
