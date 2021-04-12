@@ -20,7 +20,7 @@ public class BlockRegistries
 
     //All blocks
 
-    //Basic blocks
+    //Basic blocks. needs to config things like sound, hardness etc...
     public static final RegistryObject<Block> encrag = createBlock("encrag", () -> new Block(Block.Properties.create(Material.ANVIL).hardnessAndResistance(2.0f, 3.0f).sound(SoundType.ANCIENT_DEBRIS)));
 
 
