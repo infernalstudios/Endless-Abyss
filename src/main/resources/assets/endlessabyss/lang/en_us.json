@@ -1,3 +1,10 @@
 {
-  "block.endlessabyss.encrag": "Encrag"
+  "block.endlessabyss.encrag": "Encrag",
+  "block.endlessabyss.cobbled_encrag": "Cobbled Encrag",
+  "block.endlessabyss.encrag_bricks": "Encrag Bricks",
+  "block.endlessabyss.chiseled_encrag_bricks": "Chiseled Encrag Bricks",
+  "block.endlessabyss.tenium": "Tenium",
+  "block.endlessabyss.tenium_sand": "Tenium Sand",
+  "block.endlessabyss.tenium_bricks": "Tenium Bricks",
+  "block.endlessabyss.polished_tenium": "Polished Tenium"
 }
