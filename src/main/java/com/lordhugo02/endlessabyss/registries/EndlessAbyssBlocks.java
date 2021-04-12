@@ -10,8 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class EndlessAbyssBlocks
-{
+public class EndlessAbyssBlocks {
 
     public static final DeferredRegister<Block> BLOCK_REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EndlessAbyss.MODID);
 

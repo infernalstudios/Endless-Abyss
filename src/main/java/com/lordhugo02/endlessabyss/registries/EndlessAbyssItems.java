@@ -10,9 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class EndlessAbyssItems
-{
-
+public class EndlessAbyssItems {
     public static final DeferredRegister<Item> ITEM_REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EndlessAbyss.MODID);
 
     public static final RegistryObject<Item> ENCRAG = register("encrag", () -> new BlockItem(EndlessAbyssBlocks.ENCRAG.get(), new Item.Properties().group(ItemGroup.MISC)));
