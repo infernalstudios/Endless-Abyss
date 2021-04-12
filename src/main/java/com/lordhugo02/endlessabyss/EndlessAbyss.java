@@ -1,10 +1,13 @@
 package com.lordhugo02.endlessabyss;
 
 
+import com.lordhugo02.endlessabyss.registries.BlockRegistries;
+import com.lordhugo02.endlessabyss.registries.ItemRegistries;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -36,6 +39,15 @@ public class EndlessAbyss
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+
+
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        //Register Items
+        ItemRegistries.ITEMS.register(bus);
+
+        //Register Blocks
+        BlockRegistries.BLOCKS.register(bus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
