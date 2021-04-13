@@ -10,7 +10,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class EndlessAbyssItems {
+public class EndlessAbyssItems
+{
     public static final DeferredRegister<Item> ITEM_REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EndlessAbyss.MODID);
 
     // To register a item, please use the template below:
@@ -24,6 +25,8 @@ public class EndlessAbyssItems {
     public static final RegistryObject<Item> COBBLED_ENCRAG = register("cobbled_encrag", () -> new BlockItem(EndlessAbyssBlocks.COBBLED_ENCRAG.get(), new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> ENCRAG_BRICKS = register("encrag_bricks", () -> new BlockItem(EndlessAbyssBlocks.ENCRAG_BRICKS.get(), new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> CHISELED_ENCRAG_BRICKS = register("chiseled_encrag_bricks", () -> new BlockItem(EndlessAbyssBlocks.CHISELED_ENCRAG_BRICKS.get(), new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> POLISHED_ENCRAG = register("polished_encrag", () -> new BlockItem(EndlessAbyssBlocks.POLISHED_ENCRAG.get(), new Item.Properties().group(ItemGroup.MISC)));
+
 
     // Tenium items
     public static final RegistryObject<Item> TENIUM = register("tenium", () -> new BlockItem(EndlessAbyssBlocks.TENIUM.get(), new Item.Properties().group(ItemGroup.MISC)));
@@ -32,7 +35,8 @@ public class EndlessAbyssItems {
     public static final RegistryObject<Item> POLISHED_TENIUM = register("polished_tenium", () -> new BlockItem(EndlessAbyssBlocks.POLISHED_TENIUM.get(), new Item.Properties().group(ItemGroup.MISC)));
 
 
-    public static RegistryObject<Item> register(String name, Supplier<? extends Item> itemSupplier) {
+    public static RegistryObject<Item> register(String name, Supplier<? extends Item> itemSupplier)
+    {
         return ITEM_REGISTRY.register(name, itemSupplier);
     }
 }
