@@ -25,7 +25,7 @@ public class EndlessAbyssItems
     public static final RegistryObject<Item> COBBLED_ENCRAG = register("cobbled_encrag", () -> new BlockItem(EndlessAbyssBlocks.COBBLED_ENCRAG.get(), new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> ENCRAG_BRICKS = register("encrag_bricks", () -> new BlockItem(EndlessAbyssBlocks.ENCRAG_BRICKS.get(), new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> CHISELED_ENCRAG_BRICKS = register("chiseled_encrag_bricks", () -> new BlockItem(EndlessAbyssBlocks.CHISELED_ENCRAG_BRICKS.get(), new Item.Properties().group(ItemGroup.MISC)));
-    public static final RegistryObject<Item> POLISHED_ENCRAG = register("polished_encrag", () -> new BlockItem(EndlessAbyssBlocks.POLISHED_ENCRAG.get(), new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> POLISHED_ENCRAG = register("polished_encrag", () -> new BlockItem(EndlessAbyssBlocks.POLISHED_ENCRAG   .get(), new Item.Properties().group(ItemGroup.MISC)));
 
 
     // Tenium items
