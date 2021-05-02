@@ -5,9 +5,12 @@
   "block.endlessabyss.chiseled_encrag_bricks": "Chiseled Encrag Bricks",
   "block.endlessabyss.polished_encrag": "Polished Encrag",
 
-
   "block.endlessabyss.tenium": "Tenium",
   "block.endlessabyss.tenium_sand": "Tenium Sand",
   "block.endlessabyss.tenium_bricks": "Tenium Bricks",
-  "block.endlessabyss.polished_tenium": "Polished Tenium"
+  "block.endlessabyss.polished_tenium": "Polished Tenium",
+
+  "item.endlessabyss.sirocco_spawn_egg": "Sirocco Spawn Egg",
+  
+  "entity.endlessabyss.sirocco": "Sirocco"
 }

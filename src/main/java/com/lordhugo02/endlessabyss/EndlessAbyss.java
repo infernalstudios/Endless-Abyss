@@ -1,7 +1,9 @@
 package com.lordhugo02.endlessabyss;
 
 import com.lordhugo02.endlessabyss.registries.EndlessAbyssBlocks;
+import com.lordhugo02.endlessabyss.registries.EndlessAbyssEntityTypes;
 import com.lordhugo02.endlessabyss.registries.EndlessAbyssItems;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -11,7 +13,7 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("endlessabyss")
+@Mod(EndlessAbyss.MODID)
 public class EndlessAbyss
 {
     public static final String MODID = "endlessabyss";
@@ -27,5 +29,7 @@ public class EndlessAbyss
         EndlessAbyssBlocks.BLOCK_REGISTRY.register(bus);
         LOGGER.log(Level.DEBUG, "Registering Items");
         EndlessAbyssItems.ITEM_REGISTRY.register(bus);
+        LOGGER.log(Level.DEBUG, "Registering Entity Types");
+        EndlessAbyssEntityTypes.ENTITY_TYPE_REGISTRY.register(bus);
     }
 }

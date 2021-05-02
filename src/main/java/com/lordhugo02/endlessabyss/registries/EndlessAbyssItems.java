@@ -1,6 +1,8 @@
 package com.lordhugo02.endlessabyss.registries;
 
 import com.lordhugo02.endlessabyss.EndlessAbyss;
+import com.lordhugo02.endlessabyss.item.ModSpawnEggItem;
+
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -34,6 +36,8 @@ public class EndlessAbyssItems
     public static final RegistryObject<Item> TENIUM_BRICKS = register("tenium_bricks", () -> new BlockItem(EndlessAbyssBlocks.TENIUM_BRICKS.get(), new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> POLISHED_TENIUM = register("polished_tenium", () -> new BlockItem(EndlessAbyssBlocks.POLISHED_TENIUM.get(), new Item.Properties().group(ItemGroup.MISC)));
 
+    // Spawn eggs
+    public static final RegistryObject<Item> SIROCCO_SPAWN_EGG = register("sirocco_spawn_egg", () -> new ModSpawnEggItem(EndlessAbyssEntityTypes.SIROCCO, 0xC6C4A7, 0x595858, new Item.Properties().group(ItemGroup.MISC)));
 
     public static RegistryObject<Item> register(String name, Supplier<? extends Item> itemSupplier)
     {
