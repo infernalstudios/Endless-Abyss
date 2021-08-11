@@ -16,8 +16,8 @@ public class SiroccoEntity extends CreatureEntity {
 
     public static AttributeModifierMap.MutableAttribute setCustomAttributes() {
         return MobEntity.func_233666_p_()
-                .createMutableAttribute(Attributes.MAX_HEALTH, 32.0D)
-                .createMutableAttribute(Attributes.MOVEMENT_SPEED, 1.0D);
+            .createMutableAttribute(Attributes.MAX_HEALTH, 32.0D)
+            .createMutableAttribute(Attributes.MOVEMENT_SPEED, 1.0D);
     }
 
     @Override

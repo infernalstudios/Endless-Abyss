@@ -3,7 +3,6 @@ package com.lordhugo02.endlessabyss.client.entity.model;
 import com.lordhugo02.endlessabyss.entities.SiroccoEntity;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
-
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 
@@ -40,7 +39,7 @@ public class SiroccoModel<T extends SiroccoEntity> extends EntityModel<T> {
         front_legs = new ModelRenderer(this);
         front_legs.setRotationPoint(0.0F, 3.75F, -10.0F);
         body.addChild(front_legs);
-        
+
 
         right2 = new ModelRenderer(this);
         right2.setRotationPoint(-5.0F, -1.0F, 0.0F);
@@ -61,7 +60,7 @@ public class SiroccoModel<T extends SiroccoEntity> extends EntityModel<T> {
         back_legs = new ModelRenderer(this);
         back_legs.setRotationPoint(0.0F, 3.75F, 10.0F);
         body.addChild(back_legs);
-        
+
 
         right = new ModelRenderer(this);
         right.setRotationPoint(-5.0F, -1.0F, 0.0F);

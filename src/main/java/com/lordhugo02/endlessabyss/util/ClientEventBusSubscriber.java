@@ -4,7 +4,6 @@ import com.lordhugo02.endlessabyss.EndlessAbyss;
 import com.lordhugo02.endlessabyss.client.entity.render.SiroccoRenderer;
 import com.lordhugo02.endlessabyss.item.ModSpawnEggItem;
 import com.lordhugo02.endlessabyss.registries.EndlessAbyssEntityTypes;
-
 import net.minecraft.entity.EntityType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.RegistryEvent;

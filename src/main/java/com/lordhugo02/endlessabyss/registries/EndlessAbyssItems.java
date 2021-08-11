@@ -2,7 +2,6 @@ package com.lordhugo02.endlessabyss.registries;
 
 import com.lordhugo02.endlessabyss.EndlessAbyss;
 import com.lordhugo02.endlessabyss.item.ModSpawnEggItem;
-
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -12,8 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class EndlessAbyssItems
-{
+public class EndlessAbyssItems {
     public static final DeferredRegister<Item> ITEM_REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EndlessAbyss.MODID);
 
     // To register a item, please use the template below:
@@ -39,8 +37,7 @@ public class EndlessAbyssItems
     // Spawn eggs
     public static final RegistryObject<Item> SIROCCO_SPAWN_EGG = register("sirocco_spawn_egg", () -> new ModSpawnEggItem(EndlessAbyssEntityTypes.SIROCCO, 0xC6C4A7, 0x595858, new Item.Properties().group(ItemGroup.MISC)));
 
-    public static RegistryObject<Item> register(String name, Supplier<? extends Item> itemSupplier)
-    {
+    public static RegistryObject<Item> register(String name, Supplier<? extends Item> itemSupplier) {
         return ITEM_REGISTRY.register(name, itemSupplier);
     }
 }

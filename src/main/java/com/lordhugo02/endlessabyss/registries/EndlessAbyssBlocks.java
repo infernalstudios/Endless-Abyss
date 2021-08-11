@@ -2,7 +2,6 @@ package com.lordhugo02.endlessabyss.registries;
 
 import com.lordhugo02.endlessabyss.EndlessAbyss;
 import com.lordhugo02.endlessabyss.block.TeniumSandBlock;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -13,9 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class EndlessAbyssBlocks
-
-{
+public class EndlessAbyssBlocks {
     public static final DeferredRegister<Block> BLOCK_REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EndlessAbyss.MODID);
 
     // To register a block, please use the template below:
@@ -40,8 +37,7 @@ public class EndlessAbyssBlocks
     public static final RegistryObject<Block> TENIUM_BRICKS = register("tenium_bricks", () -> new Block(Block.Properties.from(TENIUM.get())));
     public static final RegistryObject<Block> POLISHED_TENIUM = register("polished_tenium", () -> new Block(Block.Properties.from(TENIUM.get())));
 
-    public static RegistryObject<Block> register(String name, Supplier<? extends Block> blockSupplier)
-    {
+    public static RegistryObject<Block> register(String name, Supplier<? extends Block> blockSupplier) {
         return BLOCK_REGISTRY.register(name, blockSupplier);
     }
 }
