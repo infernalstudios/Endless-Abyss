@@ -1,4 +1,4 @@
-package com.lordhugo02.endlessabyss.util;
+package com.lordhugo02.endlessabyss.events;
 
 import com.lordhugo02.endlessabyss.EndlessAbyss;
 import com.lordhugo02.endlessabyss.client.entity.render.SiroccoRenderer;
@@ -14,7 +14,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
 @Mod.EventBusSubscriber(modid = EndlessAbyss.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-public class ClientEventBusSubscriber {
+public class ClientEvents {
+
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         RenderingRegistry.registerEntityRenderingHandler(EAEntityTypes.SIROCCO.get(), SiroccoRenderer::new);
