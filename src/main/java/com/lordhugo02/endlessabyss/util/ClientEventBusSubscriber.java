@@ -3,7 +3,7 @@ package com.lordhugo02.endlessabyss.util;
 import com.lordhugo02.endlessabyss.EndlessAbyss;
 import com.lordhugo02.endlessabyss.client.entity.render.SiroccoRenderer;
 import com.lordhugo02.endlessabyss.item.ModSpawnEggItem;
-import com.lordhugo02.endlessabyss.registries.EndlessAbyssEntityTypes;
+import com.lordhugo02.endlessabyss.init.EAEntityTypes;
 import net.minecraft.entity.EntityType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.RegistryEvent;
@@ -17,7 +17,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ClientEventBusSubscriber {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
-        RenderingRegistry.registerEntityRenderingHandler(EndlessAbyssEntityTypes.SIROCCO.get(), SiroccoRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(EAEntityTypes.SIROCCO.get(), SiroccoRenderer::new);
     }
 
     @SubscribeEvent(priority = EventPriority.LOWEST)

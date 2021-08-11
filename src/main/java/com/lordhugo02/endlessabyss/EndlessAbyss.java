@@ -1,8 +1,8 @@
 package com.lordhugo02.endlessabyss;
 
-import com.lordhugo02.endlessabyss.registries.EndlessAbyssBlocks;
-import com.lordhugo02.endlessabyss.registries.EndlessAbyssEntityTypes;
-import com.lordhugo02.endlessabyss.registries.EndlessAbyssItems;
+import com.lordhugo02.endlessabyss.init.EABlocks;
+import com.lordhugo02.endlessabyss.init.EAEntityTypes;
+import com.lordhugo02.endlessabyss.init.EAItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -22,10 +22,10 @@ public class EndlessAbyss {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         LOGGER.log(Level.DEBUG, "Registering Blocks");
-        EndlessAbyssBlocks.BLOCK_REGISTRY.register(bus);
+        EABlocks.BLOCK_REGISTRY.register(bus);
         LOGGER.log(Level.DEBUG, "Registering Items");
-        EndlessAbyssItems.ITEM_REGISTRY.register(bus);
+        EAItems.ITEM_REGISTRY.register(bus);
         LOGGER.log(Level.DEBUG, "Registering Entity Types");
-        EndlessAbyssEntityTypes.ENTITY_TYPE_REGISTRY.register(bus);
+        EAEntityTypes.ENTITY_TYPE_REGISTRY.register(bus);
     }
 }

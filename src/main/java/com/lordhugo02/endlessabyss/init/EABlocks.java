@@ -1,4 +1,4 @@
-package com.lordhugo02.endlessabyss.registries;
+package com.lordhugo02.endlessabyss.init;
 
 import com.lordhugo02.endlessabyss.EndlessAbyss;
 import com.lordhugo02.endlessabyss.block.TeniumSandBlock;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class EndlessAbyssBlocks {
+public class EABlocks {
     public static final DeferredRegister<Block> BLOCK_REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EndlessAbyss.MODID);
 
     // To register a block, please use the template below:

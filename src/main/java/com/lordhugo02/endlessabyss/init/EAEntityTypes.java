@@ -1,4 +1,4 @@
-package com.lordhugo02.endlessabyss.registries;
+package com.lordhugo02.endlessabyss.init;
 
 import com.lordhugo02.endlessabyss.EndlessAbyss;
 import com.lordhugo02.endlessabyss.entities.SiroccoEntity;
@@ -9,7 +9,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class EndlessAbyssEntityTypes {
+public class EAEntityTypes {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPE_REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, EndlessAbyss.MODID);
 
     // To register an entity, please use the template below:
