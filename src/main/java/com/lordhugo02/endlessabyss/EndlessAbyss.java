@@ -14,18 +14,15 @@ import org.apache.logging.log4j.Logger;
 @Mod(EndlessAbyss.MODID)
 public class EndlessAbyss {
     public static final String MODID = "endlessabyss";
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public EndlessAbyss() {
         MinecraftForge.EVENT_BUS.register(this);
 
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        LOGGER.log(Level.DEBUG, "Registering Blocks");
-        EABlocks.BLOCK_REGISTRY.register(bus);
-        LOGGER.log(Level.DEBUG, "Registering Items");
-        EAItems.ITEM_REGISTRY.register(bus);
-        LOGGER.log(Level.DEBUG, "Registering Entity Types");
-        EAEntityTypes.ENTITY_TYPE_REGISTRY.register(bus);
+        EABlocks.register(eventBus);
+        EAItems.register(eventBus);
+        EAEntityTypes.register(eventBus);
     }
 }
