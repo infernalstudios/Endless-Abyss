@@ -1,7 +1,7 @@
-package com.lordhugo02.endlessabyss.init;
+package org.infernalstudios.endlessabyss.init;
 
-import com.lordhugo02.endlessabyss.EndlessAbyss;
-import com.lordhugo02.endlessabyss.item.ModSpawnEggItem;
+import org.infernalstudios.endlessabyss.EndlessAbyss;
+import org.infernalstudios.endlessabyss.item.ModSpawnEggItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

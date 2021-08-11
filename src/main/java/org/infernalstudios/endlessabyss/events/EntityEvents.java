@@ -1,8 +1,8 @@
-package com.lordhugo02.endlessabyss.events;
+package org.infernalstudios.endlessabyss.events;
 
-import com.lordhugo02.endlessabyss.EndlessAbyss;
-import com.lordhugo02.endlessabyss.entities.SiroccoEntity;
-import com.lordhugo02.endlessabyss.init.EAEntityTypes;
+import org.infernalstudios.endlessabyss.EndlessAbyss;
+import org.infernalstudios.endlessabyss.entities.SiroccoEntity;
+import org.infernalstudios.endlessabyss.init.EAEntityTypes;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

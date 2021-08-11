@@ -1,4 +1,4 @@
-package com.lordhugo02.endlessabyss.entities;
+package org.infernalstudios.endlessabyss.entities;
 
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.EntityType;

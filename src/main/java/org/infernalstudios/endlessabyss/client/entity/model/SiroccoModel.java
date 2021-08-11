@@ -1,6 +1,6 @@
-package com.lordhugo02.endlessabyss.client.entity.model;
+package org.infernalstudios.endlessabyss.client.entity.model;
 
-import com.lordhugo02.endlessabyss.entities.SiroccoEntity;
+import org.infernalstudios.endlessabyss.entities.SiroccoEntity;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import net.minecraft.client.renderer.entity.model.EntityModel;

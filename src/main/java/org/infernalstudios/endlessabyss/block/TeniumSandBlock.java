@@ -1,4 +1,4 @@
-package com.lordhugo02.endlessabyss.block;
+package org.infernalstudios.endlessabyss.block;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

@@ -1,7 +1,7 @@
-package com.lordhugo02.endlessabyss.init;
+package org.infernalstudios.endlessabyss.init;
 
-import com.lordhugo02.endlessabyss.EndlessAbyss;
-import com.lordhugo02.endlessabyss.entities.SiroccoEntity;
+import org.infernalstudios.endlessabyss.EndlessAbyss;
+import org.infernalstudios.endlessabyss.entities.SiroccoEntity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.util.ResourceLocation;

@@ -1,8 +1,8 @@
-package com.lordhugo02.endlessabyss.client.entity.render;
+package org.infernalstudios.endlessabyss.client.entity.render;
 
-import com.lordhugo02.endlessabyss.EndlessAbyss;
-import com.lordhugo02.endlessabyss.client.entity.model.SiroccoModel;
-import com.lordhugo02.endlessabyss.entities.SiroccoEntity;
+import org.infernalstudios.endlessabyss.EndlessAbyss;
+import org.infernalstudios.endlessabyss.client.entity.model.SiroccoModel;
+import org.infernalstudios.endlessabyss.entities.SiroccoEntity;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.util.ResourceLocation;

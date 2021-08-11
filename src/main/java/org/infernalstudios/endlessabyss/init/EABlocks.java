@@ -1,7 +1,7 @@
-package com.lordhugo02.endlessabyss.init;
+package org.infernalstudios.endlessabyss.init;
 
-import com.lordhugo02.endlessabyss.EndlessAbyss;
-import com.lordhugo02.endlessabyss.block.TeniumSandBlock;
+import org.infernalstudios.endlessabyss.EndlessAbyss;
+import org.infernalstudios.endlessabyss.block.TeniumSandBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

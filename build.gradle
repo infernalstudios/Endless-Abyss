@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
 version = '1.0'
-group = 'com.lordhugo02.endlessabyss' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'org.infernalstudios.endlessabyss' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'endlessabyss'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
