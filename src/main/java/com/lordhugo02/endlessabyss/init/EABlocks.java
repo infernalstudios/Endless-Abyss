@@ -24,7 +24,7 @@ public class EABlocks {
     //Propreties needs to be re-defined.
 
     // Encrag blocks
-    public static final RegistryObject<Block> ENCRAG = register("encrag", () -> new Block(Block.Properties.create(Material.ANVIL).hardnessAndResistance(2.0f, 3.0f).sound(SoundType.ANCIENT_DEBRIS)));
+    public static final RegistryObject<Block> ENCRAG = register("encrag", () -> new Block(Block.Properties.create(Material.ANVIL).hardnessAndResistance(2.0f, 3.0f).sound(SoundType.ANCIENT_DEBRIS).harvestTool(ToolType.PICKAXE).setRequiresTool()));
     public static final RegistryObject<Block> COBBLED_ENCRAG = register("cobbled_encrag", () -> new Block(Block.Properties.from(ENCRAG.get())));
     public static final RegistryObject<Block> ENCRAG_BRICKS = register("encrag_bricks", () -> new Block(Block.Properties.from(ENCRAG.get())));
     public static final RegistryObject<Block> CHISELED_ENCRAG_BRICKS = register("chiseled_encrag_bricks", () -> new Block(Block.Properties.from(ENCRAG.get())));
@@ -32,7 +32,7 @@ public class EABlocks {
 
 
     // Tenium blocks
-    public static final RegistryObject<Block> TENIUM = register("tenium", () -> new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.5F, 6.0F).sound(SoundType.NETHERRACK)));
+    public static final RegistryObject<Block> TENIUM = register("tenium", () -> new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.5F, 6.0F).sound(SoundType.NETHERRACK).harvestTool(ToolType.PICKAXE).setRequiresTool()));
     public static final RegistryObject<Block> TENIUM_SAND = register("tenium_sand", () -> new TeniumSandBlock(Block.Properties.create(Material.SAND).hardnessAndResistance(0.5F).sound(SoundType.SAND).harvestTool(ToolType.SHOVEL)));
     public static final RegistryObject<Block> TENIUM_BRICKS = register("tenium_bricks", () -> new Block(Block.Properties.from(TENIUM.get())));
     public static final RegistryObject<Block> POLISHED_TENIUM = register("polished_tenium", () -> new Block(Block.Properties.from(TENIUM.get())));
